@@ -1,0 +1,110 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7804959300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Nopcommerce Valid Registration Test",
+        "description": "",
+        "id": "nopcommerce-registration;nopcommerce-valid-registration-test",
+        "after": [
+          {
+            "result": {
+              "duration": 657754100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 502276000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User click on Register Link",
+            "match": {
+              "location": "RegistrationSteps.user_click_on_Register_Link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40841300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user verify registration page",
+            "match": {
+              "location": "RegistrationSteps.user_verify_registration_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 504827000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter Registration details",
+            "match": {
+              "location": "RegistrationSteps.user_enter_Registration_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on register button",
+            "match": {
+              "location": "RegistrationSteps.click_on_register_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6238600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify the message",
+            "match": {
+              "location": "RegistrationSteps.verify_the_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Register"
+          }
+        ]
+      }
+    ],
+    "name": "nopCommerce Registration",
+    "description": "",
+    "id": "nopcommerce-registration",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Registration.feature"
+  }
+]

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="9.516914">
+<testcase classname="nopCommerce Registration" name="Nopcommerce Valid Registration Test" time="9.516914">
+<system-out><![CDATA[When User click on Register Link............................................passed
+Then user verify registration page..........................................passed
+Then User enter Registration details........................................passed
+Then Click on register button...............................................passed
+Then Verify the message.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
